@@ -1,4 +1,4 @@
-# comment-predictor using SVM
+# Game-Rating-Predictor using SVM
 This project implement SVM to predict rating of a comment on game review dataset from Kaggle.
 
 # Deploy Flask Implementation Using AWS EC2
