@@ -1,5 +1,7 @@
 # Game-Rating-Predictor using SVM
-This project implement SVM to predict rating of a comment on game review dataset from Kaggle.
+
+# The Goal of Project:
+The purpose of this project is to build a model that will be trained on given data and will predict the ranting from 0 to 10 from the comment that we give.First, we will import the necessary libraries and the will load the data from csv file 'bgg-13m-reviews.csv'. Now, we will pre-process the data by formating the comments and rating and will divide into DataFrames and vectorize every DataFrames. I have used SVM classifier because it is a supervised machine learning algorithm that can be used for classification. In general terms SVM is very good when you have a huge number of features. For example for text classification in a bag of words model
 
 # Deploy Flask Implementation Using AWS EC2
 - Download my repository
