@@ -18,7 +18,7 @@ SVM performs very good in text classification for this typpe of larg datset. SVM
 - Download my repository 
 - Open my repo in console 
 - create virtual environment
-- Now install all the requirement by running following command:
+- Now install all the requirement by running following command.
 ```
  pip install -r requiremnet.txt
 ```
@@ -29,7 +29,7 @@ SVM performs very good in text classification for this typpe of larg datset. SVM
 
 ### Deploy Flask Implementation Using AWS EC2
 - Launch EC2 instance on AWS
-- Use this command to copy all files of your flask app to EC2 instance:
+- Use this command to copy all files of your flask app to EC2 instance.
 ```
  scp -i path/to/key file/to/copy user@ec2-xx-xx-xxx- xxx.compute-1.amazonaws.com:path/to/file
 ```
@@ -37,7 +37,7 @@ SVM performs very good in text classification for this typpe of larg datset. SVM
 ```
  pip install -r /path/to/requirements.txt
 ```
-- Now run this command to start app:
+- Now run this command to start app.
 ```
  sudo python3 app.py 
 ```
