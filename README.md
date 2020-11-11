@@ -20,26 +20,26 @@ SVM performs very good in text classification for this typpe of larg datset. SVM
 - create virtual environment
 - Now install all the requirement by running following command:
 ```
-pip install -r requiremnet.txt
+ pip install -r requiremnet.txt
 ```
 - Now run following comand to start the app localy
 ```
-python app.py
+ python app.py
 ```
 
 ## Deploy Flask Implementation Using AWS EC2
 - Launch EC2 instance on AWS
 - Use this command to copy all files of your flask app to EC2 instance:
 ```
-scp -i path/to/key file/to/copy user@ec2-xx-xx-xxx- xxx.compute-1.amazonaws.com:path/to/file
+ scp -i path/to/key file/to/copy user@ec2-xx-xx-xxx- xxx.compute-1.amazonaws.com:path/to/file
 ```
 - Now use this command to install all requirements in your instance.
 ```
-pip install -r /path/to/requirements.txt
+ pip install -r /path/to/requirements.txt
 ```
 - Now run this command to start app:
 ```
-sudo python3 app.py 
+ sudo python3 app.py 
 ```
 - Make sure to use python3 and pip3 for linux instance.
 - Now go on aws and using Public DNS (IPv4) you can see your application.
